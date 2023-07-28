@@ -22,7 +22,7 @@ class Projects extends Component {
 
     this.chatApplication = () => {
       window.location.assign(
-        "https://github.com/ismail5g/Chat-Application-vai-Web-Socket"
+        "https://github.com/sujayjirapure/Flipkart-Clone---React-Project---05dkojyayxba"
       );
     };
     this.calculator = () => {
@@ -31,16 +31,16 @@ class Projects extends Component {
       );
     };
     this.portfolio = () => {
-      window.location.assign("https://github.com/ismail5g/my-portfolio");
+      window.location.assign("https://github.com/sujayjirapure/sujayportfolio");
     };
     this.portfoliolive = () => {
       window.location.assign("https://devismail.netlify.app/");
     };
     this.ecommerce = () => {
-      window.location.assign("https://github.com/ismail5g/EasyBazar");
+      window.location.assign("https://github.com/sujayjirapure/passanger-data");
     };
     this.leavemangement = () => {
-      window.location.assign("https://github.com/ismail5g/Leave-Management");
+      window.location.assign("https://github.com/sujayjirapure/weather-app");
     };
     this.crudapplication = () => {
       window.location.assign(
@@ -52,8 +52,24 @@ class Projects extends Component {
         "https://github.com/ismail5g/Facebook-Education-Perpose"
       );
     };
+    this.subsapp = () => {
+      window.location.assign(
+        "https://github.com/sujayjirapure/subscription-App.git"
+      );
+    };
+    this.cardpro = () => {
+      window.location.assign(
+        "https://github.com/sujayjirapure/card-section.git"
+      );
+    };
+    this.testimonial = () => {
+      window.location.assign(
+        "https://github.com/sujayjirapure/Testimonials-grid-section.git"
+      );
+    };
+    
     this.toggleCategories = () => {
-      if (this.state.activeTab === 0) {
+      if (this.state.activeTab === 2) {
         return (
 
           <div className="projects-grid">
@@ -63,14 +79,14 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/chat.jpg) center / cover",
+                  background: "url(images/flipkart.png) center / cover",
                 }}
               >
-                Chat Application
+              
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is a chat Application developed on a running course from
-                UDEMY.
+                <h3>  Flipkart Clone</h3>
+                This is a clone of flipkart ecommerce website
               </CardText>
               <CardActions border>
                 <Button
@@ -80,18 +96,20 @@ class Projects extends Component {
                   primary
                   onClick={this.chatApplication.bind(this)}
                 >
-                  <i className="fa fa-github" aria-hidden="true" /> Github
+                <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
+                <a href="https://loquacious-valkyrie-388288.netlify.app">
                 <Button raised accent ripple style={{ margin: "0 10px" }}>
                   <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
                 </Button>
+                </a>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
               </CardMenu>
             </Card>
             {/* Calculator */}
-            <Card shadow={5} className="project-item">
+            {/* <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
@@ -121,21 +139,21 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
               </CardMenu>
-            </Card>
+            </Card> */}
             {/* Portfolio */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/portfolio.png) center / cover",
+                  background: "url(images/portfolio2.png) center / cover",
                 }}
               >
-                Portfolio
+              
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This portfolio designed by REACT JS on 25th August 2020. And it
-                takes 2 days to Complete.
+                <h3>Portfolio</h3>
+                This portfolio designed by REACT JS
               </CardText>
               <CardActions border>
                 <Button
@@ -166,14 +184,14 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/e-commerce.png) center / cover",
+                  background: "url(images/passanger.png) center / cover",
                 }}
               >
-                E-Commerce Shop
+              
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is an Ecommerce Online Shop developed with following MODAZ
-                e-commerce theme.
+                <h3>Passanger Data Manager</h3>
+                It work on API calls and in this project CURD oprations where used.
               </CardText>
               <CardActions border>
                 <Button
@@ -185,9 +203,11 @@ class Projects extends Component {
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
+                <a href="https://sujayjirapure.github.io/passanger-data/">
                 <Button raised accent ripple style={{ margin: "0 10px" }}>
                   <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
                 </Button>
+                </a>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -199,12 +219,13 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/leave-management.png) center / cover",
+                  background: "url(images/weatherapp.png) center / cover",
                 }}
               >
-                Leave Management
+                
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
+                <h3>Wheather App</h3>
                 This is dynamic Leave management system developed for an
                 corporate organization.
               </CardText>
@@ -227,7 +248,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
             {/* Ecom-Application */}
-            <Card shadow={5} className="project-item">
+            {/* <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
@@ -258,11 +279,11 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
               </CardMenu>
-            </Card>
+            </Card> */}
           </div>
         );
       }
-      if (this.state.activeTab === 2) {
+      if (this.state.activeTab === 0) {
         return (
           <div>
             {/* Store-Procedure */}
@@ -271,21 +292,100 @@ class Projects extends Component {
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/store-procedure.png) center / cover",
+                  background: "url(images/subsapp.png) center / cover",
                 }}
               >
-                Store Procedures
+                
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is simple Store Procedure among lot's of SQL query.
+                <h3>Subscription app</h3>
+                This is simple component and it is reponsive.
               </CardText>
               <CardActions border>
-                <Button style={{ margin: "0 10px" }} raised ripple primary>
+              <Button
+                  style={{ margin: "0 10px" }}
+                  raised
+                  ripple
+                  primary
+                  onClick={this.subsapp.bind(this)}
+                >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
+                <a href="https://sujayjirapure.github.io/subscription-App/">
                 <Button raised accent ripple style={{ margin: "0 10px" }}>
                   <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
                 </Button>
+                </a>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* html 2 */}
+            <Card shadow={5} className="project-item">
+              <CardTitle
+                style={{
+                  color: "#333",
+                  height: "180px",
+                  background: "url(images/cardpro.png) center / cover",
+                }}
+              >
+                
+              </CardTitle>
+              <CardText style={{ textAlign: "justify" }}>
+                <h3>Card section</h3>
+                This is simple component and it is reponsive.
+              </CardText>
+              <CardActions border>
+              <Button
+                  style={{ margin: "0 10px" }}
+                  raised
+                  ripple
+                  primary
+                  onClick={this.cardpro.bind(this)}
+                >
+                  <i className="fa fa-github" aria-hidden="true" /> Github
+                </Button>
+                <a href="https://sujayjirapure.github.io/card-section/">
+                <Button raised accent ripple style={{ margin: "0 10px" }}>
+                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+                </Button>
+                </a>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* html3 */}
+            <Card shadow={5} className="project-item">
+              <CardTitle
+                style={{
+                  color: "#333",
+                  height: "180px",
+                  background: "url(images/testmonial.png) center / cover",
+                }}
+              >
+                
+              </CardTitle>
+              <CardText style={{ textAlign: "justify" }}>
+                <h3>Testimonial card section</h3>
+                This is simple component and it is reponsive.
+              </CardText>
+              <CardActions border>
+              <Button
+                  style={{ margin: "0 10px" }}
+                  raised
+                  ripple
+                  primary
+                  onClick={this.testimonial.bind(this)}
+                >
+                  <i className="fa fa-github" aria-hidden="true" /> Github
+                </Button>
+                <a href="https://sujayjirapure.github.io/Testimonials-grid-section/">
+                <Button raised accent ripple style={{ margin: "0 10px" }}>
+                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+                </Button>
+                </a>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -297,7 +397,7 @@ class Projects extends Component {
         return (
           <div>
             {/* facebook */}
-            <Card shadow={5} className="project-item">
+            {/* <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
@@ -328,7 +428,7 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
               </CardMenu>
-            </Card>
+            </Card> */}
           </div>
         );
       }
@@ -344,7 +444,8 @@ class Projects extends Component {
           ripple
         >
           
-          <Tab>HTML & CSS</Tab>
+          <Tab>HTML & CSS</Tab>    
+          <Tab>HTML,CSS & JS</Tab>
           <Tab>React JS</Tab>
           <Tab>Full stack</Tab>
           
@@ -360,3 +461,6 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+
+  

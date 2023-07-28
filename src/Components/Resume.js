@@ -22,7 +22,7 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
             <hr style={{ borderTop: "2px solid #833fb2", width: "50%" }} />
             <p style={{ textAlign: "justify" }}>
-              This is sujay s jirapure. I’m an enthusiastic, responsible, self-motivated and hard-working person.
+              I’m an enthusiastic, responsible, self-motivated and hard-working person.
               I’m able to work well under pressure and adhere to strict deadlines.
               Being worked for different projects helped me to adapt to the changes quickly and made me a mature team worker.
             </p>
@@ -39,7 +39,7 @@ class Resume extends Component {
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
-              href="https://drive.google.com/file/d/10pokHihjguFSTzuqX__xeXbvNRR-Vpvj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1VPb_wFpZ4OnLxCZ3NmzwKC5jKmHN7sPO/view?usp=drive_link"
             >
               My Update CV
             </a>
@@ -74,12 +74,14 @@ class Resume extends Component {
               startYear={"April 2023"}
               endYear={"May 2023"}
               duration= {1}
+              position={"Front-end devloper"}
               jobName={"Internship (Remote)"}
               companyName={"Salesqueen software solutions Pvt Ltd"}
               jobDesc={[
-                "Worked on active development project. DevSkill built using Asp .Net-5 & MSSQL",
-                "Writing, improving & fixing Unit tests.",
-                "Designing & developing new features."
+                <ul>
+                  <li>Work with both front-end team and testing team</li>
+                  <li>Work on various live projects</li>
+                </ul>
               ]
               }
             />
@@ -87,29 +89,84 @@ class Resume extends Component {
               startYear={"June 2022"}
               endYear={"June 2023"}
               duration= {2}
-              jobName={"Internee"}
-              companyName={"ASTHA IT"}
+              position={"Full stack web development"}
+              jobName={"Course (Remote)"}
+              companyName={"Newton school"}
               jobDesc={
                 [
-                  "It was a part-time Internship program " ,
-                   "I have completed several assignments that provided by Senior Software Engineers",
-                "I learnt lot of tech things from this company I now had a chance to test my knowledge in the real world through an internship."]
+                  <ul>
+                  <li>Frontend Web Development with problem-solving.</li>
+                  <li>Technical Stack Learnt - HTML, CSS, JavaScript, Java, React, and Bootstrap.</li>
+                  <li>Worked on various projects  Weather app ,Tip calculator , Portfolio ,etc.</li>
+                </ul>  
+                
+                ]
               }
             />
             
             
             <hr style={{ borderTop: "3px solid #e22947" }} />            
             <h2>Skills</h2>
-            <Skills skill={"HTML/CSS"} progress={90} />
+            <Skills skill={"HTML/CSS"} progress={95} />
             <Skills skill={"bootstrap"} progress={90} />
+            <Skills skill={"Javascript"} progress={85} />
             <Skills skill={"ReactJS"} progress={80} />
             <Skills skill={"Node"} progress={80} />
             <Skills skill={"Express"} progress={90} />
             <Skills skill={"MongoDB"} progress={80} />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Achievments</h2>
-            <h6>6th at SWE Junior Programming Contest (03/2019)</h6>
-            <h6>9th Position at DIU TakeOff Programming Contest (04/2017)</h6>
+            <ul>
+              <li>Front-end development internship certificate <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1VPb_wFpZ4OnLxCZ3NmzwKC5jKmHN7sPO/view?usp=drive_link"
+            >
+             ( Link )
+            </a></li>
+            <li>HTML & CSS certificate (Udemy) <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1M6AFfFjWEHUF401HnIuZViPg4CnWnmS-/view?usp=sharing"
+            >
+             ( Link )
+            </a></li>
+            <li>Front-end development (Great Lerning) <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1YiKpBAIqO99SwcUoyNby2uapjCspDXO_/view?usp=sharing"
+            >
+             ( Link )
+            </a></li>
+            <li>Java (Letsupgrade) <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1dl2tjSTvg7Fs7YUFVVukPd2ECYIEVFT-/view?usp=sharing"
+            >
+             ( Link )
+            </a></li>
+            <li>C programming certificate (MMIT ,pune) <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1ui-bFRyqHJOyaKgTMZoQVw0E5D3MtAez/view?usp=sharing"
+            >
+             ( Link )
+            </a></li>
+            <li>Python certificate (Great Lerning) <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href=" https://drive.google.com/file/d/1rHNMHKs7MjcIofcabKQQ2J0rCy0nugHt/view?usp=sharing"
+            >
+             ( Link )
+            </a></li>
+            </ul>
+           
           </Cell>
         </Grid>
       </div>
